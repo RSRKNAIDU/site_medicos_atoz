@@ -1,0 +1,23 @@
+<header id="header" class="fixed-top  header-transparent ">
+  <div class="container d-flex align-items-center">
+    <div class="logo"><a href="/"><img src="{{ '/assets/favicons/android-chrome-192x192.png' | prepend: site.baseurl }}" alt="" class="img-fluid"></a></div>
+    <div class="logo ms-3"> <h1 class="app-title"><a href="/">MEDICOS <span>AtoZ</span></a></h1></div>
+    <nav id="navbar" class="navbar ms-auto">
+      <ul> 
+        {% for link in include.navigation %}
+        <li class="nav-item">
+          {%- if link.url -%}
+            <a class="nav-link scrollto" href="{{ link.url }}">{{ link.title }}</a>
+          {%- else if link.section -%}
+            <a class="nav-link scrollto" href="#{{ link.section }}">{{ link.title }}</a>
+          {%- else -%}
+            <a class="nav-link scrollto" href="#">{{ link.title }}</a>
+          {%- endif -%}
+        </li>
+        {% endfor %}
+        <li><a class="getstarted scrollto" href="#download">Download</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav>
+  </div>
+</header>

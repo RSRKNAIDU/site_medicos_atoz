@@ -1,0 +1,27 @@
+<section id="faq" class="faq section-bg">
+  <div class="container">
+    <div class="section-title" data-aos="fade-up">
+      <h2>{{ site.data.faq.title }}</h2>
+      <p>{{ site.data.faq.caption }}</p>
+    </div>
+    <div class="accordion-list">
+      <ul>
+        {% for item in site.data.faq.items %}
+        <li data-aos="fade-up">
+          <i class="bx bx-help-circle icon-help"></i>
+          <a data-bs-toggle="collapse" data-bs-target="#{{ item.id }}" class="collapsed">
+            {{ item.title }}
+            <i class="bx bx-chevron-down icon-show"></i>
+            <i class="bx bx-chevron-up icon-close"></i>
+          </a>
+          <div id="{{ item.id }}" class="collapse" data-bs-parent=".accordion-list">
+            <p>
+              {{ item.caption }}
+            </p>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</section>

@@ -1,0 +1,13 @@
+---
+layout: default
+---
+{% include nav.html navigation=site.data.navigation.home %}
+{% include hero.html %}
+<main id="main">
+  {% include features.html %}
+  {% include details.html %}    
+  {% include gallery.html %}
+  {% include faq.html %}
+  {% include contact.html %}
+</main>
+{{ content }}

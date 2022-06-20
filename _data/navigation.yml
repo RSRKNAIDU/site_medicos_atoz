@@ -1,0 +1,19 @@
+home:
+  - title: "Home"
+    section: hero
+  - title: "Blog"
+    url: "https://blog.medicosatoz.com"
+  - title: "Features"
+    section: features
+  - title: "Gallery"
+    section: gallery
+  - title: "F.A.Q"
+    section: faq
+  - title: "Contact"
+    section: contact
+
+page:
+  - title: "Home"
+    url: '/'
+  - title: "Blog"
+    url: "https://blog.medicosatoz.com"

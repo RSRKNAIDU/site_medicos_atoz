@@ -1,0 +1,37 @@
+title: Medicos A to Z
+email: medicos.ssp@gmail.com
+description: Burn your fear of failure and rise from its ashes like a phoenix.
+baseurl: ""
+url: "https://medicosatoz.com"
+
+googlelink: 'https://play.google.com/store/apps/details?id=com.ssp.medicosatoz'
+applelink: ''
+
+collections:
+  portfolio:
+    output: true
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# SEO/Meta settings
+author: Dr. RSRK
+seo:
+  name: Medicos A to Z
+  type: Medical
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

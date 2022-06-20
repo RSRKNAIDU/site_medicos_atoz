@@ -1,0 +1,44 @@
+<!-- ======= Details Section ======= -->
+<section id="details" class="details">
+  <div class="container-fluid px-5">
+    {% for post in site.portfolio %}
+       
+      {% if forloop.first %}
+        {% assign div_class = "col-lg-6" %}
+        {% assign aos_class = "fade-right" %}
+        {% assign text_class = "col-lg-6 pt-4" %}
+      {% else %}
+
+        {% if aos_class == "fade-right" %}
+          {% assign aos_class = "fade-left" %}
+        {% else %}
+          {% assign aos_class = "fade-right" %}
+        {% endif %}
+
+        {% if div_class == "col-lg-6" %}
+          {% assign div_class = "col-lg-6 order-1 order-lg-2" %}
+        {% else %}
+          {% assign div_class = "col-lg-6" %}
+        {% endif %}
+
+        {% if text_class == "col-lg-6 pt-4" %}
+          {% assign text_class = "col-lg-6 pt-5 order-2 order-lg-1" %}
+        {% else %}
+          {% assign text_class = "col-lg-6 pt-4" %}
+        {% endif %}
+
+      {% endif %}
+
+      <div class="row content">
+        <div class="{{ div_class }}" data-aos="{{ aos_class }}">
+          <img src="{{ post.image }}" class="img-fluid" alt="">
+        </div>
+        <div class="{{ text_class }}" data-aos="fade-up">
+          <h3>{{ post.title }}</h3>
+          {{ post }}
+        </div>
+      </div>
+      {% endfor %}
+  </div>
+</section>
+<!-- End Details Section -->

@@ -1,0 +1,23 @@
+title: App Features
+caption: When something is important enough, you do it even if the odds are not in your favour.
+image: assets/img/screens/theme.png
+hero_image: assets/img/screens/screen_size.png
+items:
+  - title: Dark Mode & Favorites
+    icon: bx-moon
+    caption: Set Dark mode in Profile Page. Save your favourite Papers, Books and Posts!
+  - title: Notification 
+    icon: bx-bell
+    caption: Stay updated with in-app notifications.
+  - title: Papers
+    icon: bx-receipt
+    caption: Last 10 years NEET PG and University UG Papers!
+  - title: Books
+    icon: bx-book
+    caption: Download your favourite Medical Books!
+  - title: Blog
+    icon: bx-podcast
+    caption: Important medical news, videos and articles.
+  - title: Quiz
+    icon: bx-atom
+    caption: MCQs to enhance your NEET PG preparation.

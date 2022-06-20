@@ -1,0 +1,18 @@
+title: Frequently Asked Questions
+caption: Learn from yesterday, live for today, hope for tomorrow. The important thing is not to stop questioning.
+items:
+  - id: accordion-list-1
+    title: Who is benefited from using Medicos AtoZ?
+    caption: Any Medical Student who is preparing for University exams or NEET PG exams.
+  - id: accordion-list-2
+    title: How to download books?
+    caption: In the app, Goto Books Tab, Search for the book you want. On the book page, scroll down to see the download link.
+  - id: accordion-list-3
+    title: How to download or view papers?
+    caption: In the papers tab, make sure that you have downloaded the required documents by clicking on the manage button. Once you have downloaded University or Exam papers you will have them stored in the app cache for Offline usage.
+  - id: accordion-list-4
+    title: Missing a Book or Download link not working
+    caption: Send us the details of missing books or broken links or Outdated books.
+  - id: accordion-list-5
+    title: Need more help?
+    caption: Contact us by sending us a message in any of the mediums mentioned below.

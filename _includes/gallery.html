@@ -1,0 +1,21 @@
+<!-- ======= Gallery Section ======= -->
+<section id="gallery" class="gallery">
+  <div class="container" data-aos="fade-up">
+    <div class="section-title">
+      <h2>{{ site.data.gallery.title }}</h2>
+      <p>{{ site.data.gallery.caption }}</p>
+    </div>
+  </div>
+
+  <div class="container-fluid" data-aos="fade-up">
+    <div class="gallery-slider swiper">
+      <div class="swiper-wrapper">
+        {% for image in site.data.gallery.images %}
+        <div class="swiper-slide"><a href="{{ image }}" class="gallery-lightbox" data-gall="gallery-carousel"><img src="{{ image }}" class="img-fluid" alt=""></a></div>
+        {% endfor %}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+<!-- End Gallery Section -->

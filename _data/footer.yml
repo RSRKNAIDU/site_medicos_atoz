@@ -1,0 +1,40 @@
+pages:
+  title: Useful Links
+  items:
+    - title: Home
+      url: /
+    - title: Blog
+      url: https://blog.medicosatoz.com
+    - title: Terms of service
+      url: /terms
+    - title: Privacy policy
+      url: /privacy
+
+services:
+  title: Our Services
+  items:
+    - title: Features
+      url: /#features
+    - title: Gallery
+      url: /#gallery
+    - title: F.A.Qs
+      url: /#faq
+    - title: Contact
+      url: /#contact
+
+social:
+  title: Our Social Networks
+  caption: Communication - the human connection - is the key to personal and career success.
+  links:
+    - title: facebook
+      icon: "bx bxl-facebook"
+      url: https://facebook.com/sspmedicos
+    - title: instagram
+      icon: "bx bxl-instagram"
+      url: https://instagram.com/medicosatoz
+    - title: twitter
+      icon: "bx bxl-twitter"
+      url: https://twitter.com/medicosatoz
+    - title: telegram
+      icon: "bx bxl-telegram"
+      url: https://t.me/medicosatoz

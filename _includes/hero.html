@@ -1,0 +1,29 @@
+<section id="hero" class="d-flex align-items-center">
+  <div class="container">
+    <div class="row">
+      <div
+        class="col-lg-6 d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 order-2 order-lg-1"
+        data-aos="fade-up">
+        <div>
+          <h1 class="app-title">MEDICOS <span>AtoZ</span></h1>
+          <h2>{{ site.description }}</h2>
+          <div class="d-flex flex-column flex-lg-row align-items-center">
+            {% if site.googlelink != '' %}
+            <a class="me-lg-3 mb-4 mb-lg-0" href="{{ site.googlelink }}">
+              <img class="app-badge" src="assets/img/google-play-badge.svg" alt="..." />
+            </a>
+            {% endif %}
+            {% if site.applelink != '' %}
+            <a href="{{ site.applelink }}">
+              <img class="app-badge" src="assets/img/app-store-badge.svg" alt="..." />
+            </a>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-6 d-lg-flex flex-lg-column align-items-center order-1 order-lg-2 hero-img">
+        <img src="{{ site.data.features.hero_image }}" class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+</section>
