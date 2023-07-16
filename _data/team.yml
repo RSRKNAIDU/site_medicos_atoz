@@ -1,0 +1,62 @@
+title: Our Team
+caption: "Family"
+members:
+  - name: Dr. R. S. R. K. Naidu
+    designation: Cheif Developer & Admin
+    image: assets/img/avatar/rsrk.jpg
+    page: 'https://rsrknaidu.github.io'
+    social:
+      facebook: "https://www.facebook.com/rsrknaidu"
+      twitter: "https://www.twitter.com/rsrknaidu"
+      instagram: "https://www.instagram.com/rsrknaidu"
+      mail: "mailto:rsrknaidu@gmail.com"
+
+  - name: Ganesh Ippili
+    designation: Co Developer
+    image: assets/img/avatar/ganesh.jpg
+    page: '#'
+    social:
+      facebook: ""
+      twitter: ""
+      instagram: ""
+      mail: ""
+
+  - name: Dr. Sridev Kumar Chowdary
+    designation: Editor & Social Media
+    image: assets/img/avatar/sridev.jpg
+    page: '#'
+    social:
+      facebook: ""
+      twitter: ""
+      instagram: ""
+      mail: ""
+
+  - name: Dr. Sai Kumar Reddy
+    designation: Teaster
+    image: assets/img/avatar/dvsk.jpg
+    page: '#'
+    social:
+      facebook: ""
+      twitter: ""
+      instagram: ""
+      mail: ""
+
+  - name: Dr. Yashwant Darsi
+    designation: Teaster
+    image: assets/img/avatar/yashwant.jpg
+    page: '#'
+    social:
+      facebook: ""
+      twitter: ""
+      instagram: ""
+      mail: ""
+
+  - name: Dr. Hemanth Mallela
+    designation: Teaster
+    image: assets/img/avatar/hemanth.jpg
+    page: '#'
+    social:
+      facebook: ""
+      twitter: ""
+      instagram: ""
+      mail: ""

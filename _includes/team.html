@@ -1,0 +1,35 @@
+<div class="container" id="our-team">
+    <div class="row">
+      <div class="col-md-12">
+        <div>
+            <h2>{{site.data.team.title}}</h2>
+            <p>{{site.data.team.caption}}</p>
+        </div>
+      </div>
+    </div> 
+    <div class="team-carousel owl-carousel">
+      {% for member in site.data.team.members %}
+      <div class="team-member">
+          <div class="team-info">
+            <img src="{{ member.image }}" alt="author img"/>
+            <div class="team-content">
+              <a href="{{ member.page }}"><h5>{{ member.name }}</h5></a>
+              <p>{{ member.designation }}</p>
+            </div>
+          </div> 
+          <div class="team-hover">
+            <div class="team-hover-wrap"> 
+                <ul class="team-hover-social list-inline">
+                  {% unless member.social.mail == "" %}<li class="list-inline-item"><a href="{{ member.social.mail }}"><i class="fa fa-envelope" aria-hidden="true"></i></a></li>{% endunless %}
+                  {% unless member.social.facebook == "" %}<li class="list-inline-item"><a href="{{ member.social.facebook }}"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>{% endunless %}
+                  {% unless member.social.twitter == "" %}<li class="list-inline-item"><a href="{{ member.social.twitter }}"><i class="fa fa-twitter"></i></a></li>{% endunless %}
+                  {% unless member.social.instagram == "" %}<li class="list-inline-item"><a href="{{ member.social.instagram }}"><i class="fa fa-instagram"></i></a></li>{% endunless %}
+                </ul>
+                <a href="{{ member.page }}"><h5>{{ member.name }}</h5></a>
+                <p>{{ member.designation }}</p>
+            </div>
+          </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div> 

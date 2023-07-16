@@ -4,6 +4,24 @@
 * Author: BootstrapMade.com
 * License: https://bootstrapmade.com/license/
 */
+$(document).ready(function(){
+  $('.carousel-testimony').owlCarousel({items: 1}); 
+
+  $('.team-carousel').owlCarousel({
+    autoplay:true,
+    loop:true,
+    margin:30,
+    nav:true,
+    dots:false,
+    responsive:{
+      0:{items:1}, 
+      768:{items:3},
+      1000:{items:4}
+    }
+  });  
+});
+
+
 (function() {
     "use strict";
   

@@ -1,6 +1,8 @@
 home:
   - title: "Home"
     section: hero
+  - title: "About"
+    url: '/about'
   - title: "Blog"
     url: "https://blog.medicosatoz.com"
   - title: "Features"
@@ -11,9 +13,15 @@ home:
     section: faq
   - title: "Contact"
     section: contact
+  - title: "Reviews"
+    section: review
+  - title: "Our Team"
+    section: team
 
 page:
   - title: "Home"
     url: '/'
+  - title: "About"
+    url: '/about'
   - title: "Blog"
     url: "https://blog.medicosatoz.com"
