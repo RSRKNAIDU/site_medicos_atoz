@@ -2,7 +2,7 @@ title: Our Team
 caption: "Family"
 members:
   - name: Dr. R. S. R. K. Naidu
-    designation: Cheif Developer & Admin
+    designation: Chief Developer & Admin
     image: assets/img/avatar/rsrk.jpg
     page: 'https://rsrknaidu.github.io'
     social:
@@ -32,7 +32,7 @@ members:
       mail: ""
 
   - name: Dr. Sai Kumar Reddy
-    designation: Teaster
+    designation: Tester
     image: assets/img/avatar/dvsk.jpg
     page: '#'
     social:
@@ -42,7 +42,7 @@ members:
       mail: ""
 
   - name: Dr. Yashwant Darsi
-    designation: Teaster
+    designation: Tester
     image: assets/img/avatar/yashwant.jpg
     page: '#'
     social:
@@ -52,7 +52,7 @@ members:
       mail: ""
 
   - name: Dr. Hemanth Mallela
-    designation: Teaster
+    designation: Tester
     image: assets/img/avatar/hemanth.jpg
     page: '#'
     social:
